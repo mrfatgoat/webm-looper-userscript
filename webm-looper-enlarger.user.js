@@ -5,7 +5,7 @@
 // @description A userscript which automatically enlarges and enables looping on Webm videos in your browser.
 // @include     *.webm
 // @run-at      document-start
-// @version     1.0
+// @version     1.1
 // @grant       GM_addStyle
 // ==/UserScript==
 
@@ -17,7 +17,8 @@ GM_addStyle("\
   }");
 
 var vids = document.getElementsByTagName('video');
-for (i = 0; i < vids.length; i++) {
-  vids[i].setAttribute('loop', 'true');
+for (var i = 0; i < vids.length; i++) {
+    vids[i].setAttribute('loop', 'true');
+    vids[i].volume = 0.0;
 }
 void 0;
