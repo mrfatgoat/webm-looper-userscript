@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name        Webm Looper and Enlarger
+// @name        Video Looper and Enlarger
 // @namespace   com.mrfatgoat.webmlooperEnlarger
 // @author      WhatIsThisImNotGoodWithComputers, mrfatgoat
-// @description A userscript which automatically enlarges and enables looping on Webm videos in your browser.
+// @description A userscript which automatically enlarges, mutes, and enables looping on videos in your browser.
 // @include     *.webm
+// @include     *.mp4
 // @run-at      document-start
-// @version     1.1
+// @version     1.2
 // @grant       GM_addStyle
 // ==/UserScript==
 
